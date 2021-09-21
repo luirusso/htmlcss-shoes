@@ -6,31 +6,80 @@
 }
 
 html, body {
-    overflow: hidden;
-    margin: 0;
+        margin: 0;
 }
 
 .firstpage {
     position: relative;
+    width: 100vw;
     height: 100vh;
     background-color: red;
 }
 
 .product1 {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: block;
 }
 
 .first-title {
-    z-index: 1;
     position: absolute;
-    top: 80%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 70px;
     text-align: center;
     color: yellow;
+}
+
+.secondpage {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: green;
+}
+
+.product2 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+}
+
+.second-title {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    text-align: center;
+    color: yellow;
+}
+
+.thirdpage {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: yellow;
+}
+
+.product3 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+}
+
+.third-title {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    text-align: center;
+    color: green;
 }
