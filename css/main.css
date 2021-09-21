@@ -1,3 +1,5 @@
+
+/* GENERAL STYLES */
 * {
     margin: 0;
     padding: 0;
@@ -13,9 +15,49 @@ html, body {
         margin: 0;
 }
 
+
+/* Main Content */
+img {
+    width: 45%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+}
+
+h2,
+.third-title {
+    position: absolute;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    text-align: center;
+    color: yellow;
+}
+
+.third-title {
+    color: green;
+}
+
+nav {
+    margin-top: 20px;
+    padding: 0 15px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
 li {
     display: inline-block;
     margin: 0 20px;
+    background-color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
 }
 
 a {
@@ -29,99 +71,23 @@ main {
     position: relative;
 }
 
-nav {
-    margin-top: 20px;
-    padding: 0 15px;
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 1;
-}
-
-.nav1,
-.nav2,
-.nav3 {
-    background-color: white;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-}
-
-.firstpage {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    max-width:100%;
-    background-color: red;
-}
-
-.product1 {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: block;
-}
-
-.first-title {
-    position: absolute;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 70px;
-    text-align: center;
-    color: yellow;
-}
-
-.secondpage {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    max-width:100%;
-    background-color: green;
-}
-
-.product2 {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: block;
-}
-
-.second-title {
-    position: absolute;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 70px;
-    text-align: center;
-    color: yellow;
-}
-
+.firstpage,
+.secondpage,
 .thirdpage {
     position: relative;
     width: 100vw;
     height: 100vh;
     max-width:100%;
+}
+
+.firstpage {
+    background-color: red;
+}
+
+.secondpage {
+    background-color: green;
+}
+
+.thirdpage {
     background-color: yellow;
-}
-
-.product3 {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: block;
-}
-
-.third-title {
-    position: absolute;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 70px;
-    text-align: center;
-    color: green;
 }
